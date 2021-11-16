@@ -63,16 +63,64 @@
 }
 
 .header__heading {
-  margin-top: 85px;
-  font-size: 3.2rem;
+  margin-top: 80px;
+  font-size: 3.3rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .line__decor {
   width: 100%;
-  height: 3px;
+  height: 2px;
   background-color: #d2d2d2;
-  margin-top: 160px;
+  margin-top: 146px;
+}
+
+.main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 181px;
+}
+
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.article__heading {
+  font-size: 1.9rem;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  text-shadow: white 2px 5px;
+  color: #3f3f3f;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.article__text {
+  margin-top: 50px;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  line-height: 2;
+  color: #8b8989;
+  text-shadow: white 5px 5px;
 }
 /*# sourceMappingURL=style.css.map */
