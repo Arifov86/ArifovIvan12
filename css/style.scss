@@ -1,7 +1,6 @@
 .wrapper {
     max-width: 1500px;
     margin: 0 auto;
-    // outline: 3px solid orange;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,8 +26,7 @@
 
 .active {
     background-color: #3f3f3f;
-    border-radius: 0 0 10% 10%;
-    
+    border-radius: 0 0 10% 10%;    
 }
 
 .active .menu__link {
@@ -73,8 +71,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .article__heading {
@@ -88,13 +85,15 @@
 }
 
 .article__text {
-    margin-top: 50px;
-    
+    margin-top: 50px;  
     font-size: 1.3rem;
     letter-spacing: 1px;
     line-height: 2;
     color: #8b8989;
     text-shadow: white 5px 5px;
-    
-    
+}
+
+.images {
+    padding-right: 30px;
+    padding-bottom: 92px;
 }
