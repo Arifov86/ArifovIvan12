@@ -105,6 +105,33 @@
   text-align: center;
 }
 
+.article__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 19px;
+  margin-bottom: 100px;
+}
+
+.title__primary {
+  font-size: 1.9rem;
+  color: #3f3f3f;
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  padding-left: 27px;
+}
+
+.title__secondary {
+  font-size: 1.3rem;
+  color: #3f3f3f;
+  padding-right: 18px;
+  word-spacing: 10px;
+}
+
 .article__heading {
   font-size: 1.9rem;
   letter-spacing: 2px;
@@ -120,12 +147,33 @@
   font-size: 1.3rem;
   letter-spacing: 1px;
   line-height: 2;
-  color: #8b8989;
+  color: #3f3f3f;
   text-shadow: white 5px 5px;
 }
 
 .images {
   padding-right: 30px;
   padding-bottom: 92px;
+}
+
+.btn__wrap {
+  width: 372px;
+  height: 89px;
+  background-color: #df6267;
+  border-radius: 5px;
+  text-transform: capitalize;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
