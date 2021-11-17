@@ -71,6 +71,7 @@
 
 .header__heading {
   margin-top: 80px;
+  margin-bottom: 86px;
   font-size: 3.3rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -80,7 +81,7 @@
   width: 100%;
   height: 2px;
   background-color: #d2d2d2;
-  margin-top: 146px;
+  margin-top: 78px;
 }
 
 .main {
@@ -141,16 +142,16 @@
 
 .article__heading {
   font-size: 1.9rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   word-spacing: 1px;
   text-shadow: white 2px 5px;
   color: #3f3f3f;
   font-weight: 500;
-  padding-top: 10px;
 }
 
 .article__text {
   margin-top: 50px;
+  margin-bottom: 50px;
   font-size: 1.3rem;
   letter-spacing: 1px;
   line-height: 2;
@@ -213,6 +214,7 @@
 
 .footer__list {
   outline: 2px solid orange;
+  margin-top: 90px;
   margin-bottom: 80px;
 }
 
