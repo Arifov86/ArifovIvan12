@@ -140,13 +140,18 @@
   padding-right: 18px;
 }
 
-.article__heading {
+.article__heading,
+.article__heading-secondary {
   font-size: 1.9rem;
   letter-spacing: 1px;
   word-spacing: 1px;
   text-shadow: white 2px 5px;
   color: #3f3f3f;
   font-weight: 500;
+}
+
+.article__heading-secondary {
+  padding-top: 29px;
 }
 
 .article__text {
@@ -166,10 +171,6 @@
 
 .button {
   padding-top: 88px;
-}
-
-.primary {
-  padding-top: -38px;
 }
 
 .btn__wrap {
