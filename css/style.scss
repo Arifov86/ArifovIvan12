@@ -105,7 +105,7 @@ $fontColor: #3f3f3f;
     font-size: 1.3rem;
     color: $fontColor;
     padding-right: 18px;
-    word-spacing: 10px;
+    // word-spacing: 2px;
 }
 
 .article__heading {
@@ -145,4 +145,28 @@ $fontColor: #3f3f3f;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer {
+    margin: 0 auto;
+    max-width: 1500px;
+    font-size: 1.2rem;
+    color: $fontColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 2px solid lime;
+    margin-bottom: 70px;
+}
+
+.footer__list {
+    outline: 2px solid orange;
+    margin-bottom: 80px;
+}
+
+.link {
+    padding-right: 53px;
+    padding-left: 53px;
+    text-decoration: none;
+    color: blue;
 }

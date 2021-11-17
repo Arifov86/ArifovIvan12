@@ -136,7 +136,6 @@
   font-size: 1.3rem;
   color: #3f3f3f;
   padding-right: 18px;
-  word-spacing: 10px;
 }
 
 .article__heading {
@@ -182,5 +181,36 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.footer {
+  margin: 0 auto;
+  max-width: 1500px;
+  font-size: 1.2rem;
+  color: #3f3f3f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: 2px solid lime;
+  margin-bottom: 70px;
+}
+
+.footer__list {
+  outline: 2px solid orange;
+  margin-bottom: 80px;
+}
+
+.link {
+  padding-right: 53px;
+  padding-left: 53px;
+  text-decoration: none;
+  color: blue;
 }
 /*# sourceMappingURL=style.css.map */
