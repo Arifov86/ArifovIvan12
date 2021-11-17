@@ -10,7 +10,7 @@ $fontColor: #3f3f3f;
 }
 
 .container {
-    max-width: 1500px;
+    width: 1506px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -81,7 +81,8 @@ $fontColor: #3f3f3f;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    text-align: center;    
+    text-align: center;
+    outline: 3px solid red;    
 }
 
 .article__title {
@@ -130,6 +131,14 @@ $fontColor: #3f3f3f;
 .images {
     padding-right: 30px;
     padding-bottom: 92px;
+}
+
+.button {
+    padding-top: 88px;
+}
+
+.primary {
+    padding-top: -38px;
 }
 
 .btn__wrap {
