@@ -4,8 +4,8 @@ $fontColor: #3f3f3f;
     
     margin: 0 auto;
     display: flex;
-    // flex-direction: column;
-    // justify-content: center;
+    flex-direction: column;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,7 +14,40 @@ $fontColor: #3f3f3f;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+    outline: 3px solid blue;
+}
+
+@media screen and (max-width: 599px) {
+    .container {
+        width: 100%;
+        font-size: 1rem;
+    }
+    
+    .menu__item {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 904px) {
+    .container {
+        width: 100%;
+        
+    }
+
+}
+@media (min-width: 905px) and (max-width: 1239px) {
+    .container {
+        width: 90%;
+        
+    }
+
+}
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1506px;
+        
+    }
 }
 
 .header {
@@ -44,11 +77,33 @@ $fontColor: #3f3f3f;
 }
 
 .menu__link {
+    display: block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     text-decoration: none;
     color: #000000;
     margin: 0 35px;
+    transition: all 0.25s linear;
+    line-height: 1;
+}
+
+.menu__item:hover .submenu {
+    list-style: none;
+    outline: 2px solid rgb(129, 92, 12);
+    position: relative;
+    display: block;
+}
+
+.active > .menu__link {
+    text-transform: uppercase;
+    color: #515151;
+    background-color: #cccccc;
+}
+
+.submenu {
+    list-style: none;
+    position: absolute;
+    display: none;
 }
 
 .header__logo {
@@ -182,3 +237,4 @@ $fontColor: #3f3f3f;
     text-decoration: none;
     color: blue;
 }
+
