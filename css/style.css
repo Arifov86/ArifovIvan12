@@ -23,9 +23,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   outline: 3px solid blue;
 }
 
@@ -103,22 +100,32 @@
   position: relative;
 }
 
-.header__menu {
-  margin: 25px auto;
-  padding-left: 30px;
-}
-
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 8px;
+  margin-left: 75px;
 }
 
 .active {
+  position: relative;
+  bottom: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 155px;
+  height: 74px;
   background-color: #3f3f3f;
-  border-radius: 0 0 10% 10%;
+  border-radius: 0 0 5% 5%;
 }
 
 .active .menu__link {
@@ -236,12 +243,12 @@
 }
 
 .header__logo {
-  margin-top: 195px;
+  margin-top: 165px;
+  margin-left: 12px;
+  margin-bottom: 75px;
 }
 
 .header__heading {
-  margin-top: 80px;
-  margin-bottom: 86px;
   font-size: 3.3rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -251,7 +258,6 @@
   width: 100%;
   height: 2px;
   background-color: #d2d2d2;
-  margin-top: 78px;
 }
 
 .main {
@@ -263,7 +269,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 181px;
 }
 
 .article {
@@ -291,8 +296,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 19px;
-  margin-bottom: 100px;
 }
 
 .title__primary {
@@ -301,13 +304,11 @@
   text-transform: capitalize;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
-  padding-left: 27px;
 }
 
 .title__secondary {
   font-size: 1.3rem;
   color: #3f3f3f;
-  padding-right: 18px;
 }
 
 .article__heading,
@@ -320,27 +321,17 @@
   font-weight: 500;
 }
 
-.article__heading-secondary {
-  padding-top: 29px;
-}
-
 .article__text {
-  margin-top: 50px;
-  margin-bottom: 50px;
   font-size: 1.3rem;
   letter-spacing: 1px;
   line-height: 2;
-  color: #3f3f3f;
+  color: #9a8989;
   text-shadow: white 5px 5px;
 }
 
 .images {
   padding-right: 30px;
   padding-bottom: 92px;
-}
-
-.button {
-  padding-top: 88px;
 }
 
 .btn__wrap {
