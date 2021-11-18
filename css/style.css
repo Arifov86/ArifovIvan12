@@ -339,10 +339,21 @@
   text-shadow: white 5px 5px;
 }
 
+.first__txt {
+  padding-top: 57px;
+  padding-bottom: 80px;
+}
+
 .images {
   padding-right: 22px;
   padding-bottom: 47px;
   padding-top: 47px;
+}
+
+.button__first {
+  margin-top: 83px;
+  margin-left: 19px;
+  margin-bottom: 25px;
 }
 
 .btn__wrap {
