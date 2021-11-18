@@ -302,6 +302,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 19px;
+  padding-bottom: 45px;
 }
 
 .title__primary {
@@ -310,11 +312,13 @@
   text-transform: capitalize;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
+  padding-left: 27px;
 }
 
 .title__secondary {
   font-size: 1.3rem;
   color: #3f3f3f;
+  padding-right: 18px;
 }
 
 .article__heading,
@@ -336,8 +340,9 @@
 }
 
 .images {
-  padding-right: 30px;
-  padding-bottom: 92px;
+  padding-right: 22px;
+  padding-bottom: 47px;
+  padding-top: 47px;
 }
 
 .btn__wrap {
