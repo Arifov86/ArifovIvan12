@@ -362,6 +362,12 @@
   margin-left: 15px;
 }
 
+.button__third {
+  margin-top: 85px;
+  margin-bottom: 23px;
+  margin-left: 15px;
+}
+
 .btn__wrap {
   width: 372px;
   height: 89px;
@@ -384,7 +390,7 @@
 }
 
 .footer {
-  margin: 0 auto;
+  margin-top: 100px;
   max-width: 1500px;
   font-size: 1.2rem;
   color: #3f3f3f;
@@ -426,6 +432,11 @@
 
 .secondary__text {
   margin-top: 52px;
-  margin-bottom: 143px;
+  margin-bottom: 95px;
+}
+
+.tertiary__text {
+  margin-top: 31px;
+  margin-bottom: 68px;
 }
 /*# sourceMappingURL=style.css.map */
