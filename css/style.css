@@ -356,6 +356,12 @@
   margin-bottom: 25px;
 }
 
+.button__second {
+  margin-top: 95px;
+  margin-bottom: 23px;
+  margin-left: 15px;
+}
+
 .btn__wrap {
   width: 372px;
   height: 89px;
@@ -414,6 +420,11 @@
 }
 
 .primary__text {
+  margin-top: 52px;
+  margin-bottom: 143px;
+}
+
+.secondary__text {
   margin-top: 52px;
   margin-bottom: 143px;
 }

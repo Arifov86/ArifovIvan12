@@ -274,7 +274,6 @@ $fontColor: #3f3f3f;
     font-weight: 500;
 }
 
-
 .article__text {
     font-size: 1.3rem;
     letter-spacing: 1px;
@@ -298,6 +297,12 @@ $fontColor: #3f3f3f;
     margin-top: 83px;
     margin-left: 19px;
     margin-bottom: 25px;
+}
+
+.button__second {
+    margin-top: 95px;
+    margin-bottom: 23px;
+    margin-left: 15px;
 }
 
 .btn__wrap {
@@ -345,6 +350,11 @@ $fontColor: #3f3f3f;
 }
 
 .primary__text {
+    margin-top: 52px;
+    margin-bottom: 143px;
+}
+
+.secondary__text {
     margin-top: 52px;
     margin-bottom: 143px;
 }
