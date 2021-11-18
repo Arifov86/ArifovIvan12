@@ -26,6 +26,9 @@ $fontColor: #3f3f3f;
     .menu__item {
         display: none;
     }
+    .active {
+        opacity: 0;
+    }
     .header__heading h1 {
         font-size: 2rem;
     }
@@ -49,6 +52,9 @@ $fontColor: #3f3f3f;
     }
     .menu__item {
         display: none;
+    }
+    .active {
+        opacity: 0;
     }
 }
 
@@ -207,8 +213,8 @@ $fontColor: #3f3f3f;
 }
 
 .header__heading {
-    // margin-top: 80px;
-    // margin-bottom: 86px;
+    
+    margin-bottom: 165px;
     font-size: 3.3rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -218,21 +224,19 @@ $fontColor: #3f3f3f;
     width: 100%;
     height: 2px;
     background-color: #d2d2d2;
-    // margin-top: 78px;
 }
 
 .main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    // margin-top: 181px;
 }
 
 .article {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     outline: 3px solid red;
 }
@@ -240,8 +244,6 @@ $fontColor: #3f3f3f;
 .article__title {
     display: flex;
     justify-content: space-between;
-    // margin-top: 19px;
-    // margin-bottom: 100px;
 }
 
 .title__primary {
@@ -270,13 +272,8 @@ $fontColor: #3f3f3f;
     font-weight: 500;
 }
 
-.article__heading-secondary {
-    // padding-top: 29px;
-}
 
 .article__text {
-    // margin-top: 50px;
-    // margin-bottom: 50px;
     font-size: 1.3rem;
     letter-spacing: 1px;
     line-height: 2;
@@ -287,10 +284,6 @@ $fontColor: #3f3f3f;
 .images {
     padding-right: 30px;
     padding-bottom: 92px;
-}
-
-.button {
-    // padding-top: 88px;
 }
 
 .btn__wrap {
@@ -331,4 +324,13 @@ $fontColor: #3f3f3f;
     padding-left: 53px;
     text-decoration: none;
     color: blue;
+}
+
+.primary__heading {
+    margin-top: 173px;
+}
+
+.primary__text {
+    margin-top: 52px;
+    margin-bottom: 143px;
 }
