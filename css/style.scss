@@ -73,9 +73,19 @@ $fontColor: #3f3f3f;
     }
 }
 
-@media screen and (min-width: 1240px) {
+@media (min-width: 1239px) and (max-width: 1440px) {
     .container {
-        width: 1506px;
+        width: 80%;
+    }
+
+    .menu__btn {
+        opacity: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 90%;
     }
 
     .menu__btn {
